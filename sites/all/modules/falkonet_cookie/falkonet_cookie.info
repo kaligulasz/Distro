@@ -1,0 +1,5 @@
+name = Falkonet cookie
+description = Module add cookie for page
+package = Falkonet
+core = 7.x
+dependencies[] = block

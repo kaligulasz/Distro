@@ -1,0 +1,117 @@
+body.navbar-is-fixed-top {
+    padding-top: 73px !important;
+}
+
+#navbar {
+    .glyphicon {
+        font-size: 30px;
+    }
+    
+    .navbar-btn {
+        padding-top: 5px;
+    }
+    
+    nav {
+        #main-menu {
+
+            li {
+                span {
+                    color: #FFF;
+                }
+            }
+
+        }
+    }
+}
+
+.secondary {
+    li {
+        float: left;
+        a {
+            display: block;
+            margin-top: 16.5px;
+            padding: 0 15px 0 15px;
+            
+            span {
+                font-size: 23px !important;
+            }
+        }
+    }
+}
+
+
+.region-menu-redaktora {
+    float: left;
+    ul.menu {
+        > li {
+            float: left;
+                        
+            a {
+                
+            }    
+            
+            span {
+                color: #FFF;
+            }
+            
+            .nolink {
+                padding: 19px;
+                display: block;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+.views-field-edit-node {
+    a {
+        font-size: 0px;
+        margin-left: 10px;
+        span {
+            font-size: 25px;
+        }
+    }
+}
+
+
+.view-tre-na-stronie, .view-aktualnosci-admin, .view-prosta-strona-admin {
+    
+    .view-header {
+        margin-bottom: 20px;
+        a {
+            margin-right: 10px;
+        }
+    }
+    
+    .views-table {
+        tr {
+            td {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+
+.node-form-has-region-right .form-region-main {
+    width: 60%;
+}
+
+.node-form .form-region-right {
+    width: 39%;
+}
+
+
+// Ukrycie wyboru formatu tekstu WYSiWIG
+.filter-wrapper {
+    display: none;
+}
+
+// Ukrycie linku z ukryciem podsumowania
+.text-summary-wrapper {
+    .field-edit-link {
+        display: none;
+    }
+}

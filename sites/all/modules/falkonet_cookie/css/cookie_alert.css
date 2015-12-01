@@ -1,0 +1,217 @@
+/*Only Legal*/
+.ui-dialog-titlebar.ui-widget-header{
+}
+.ui-widget-overlay{
+    z-index:    100000!important;
+    position:   fixed!important;
+}
+.ui-draggable .ui-dialog-titlebar{
+    background: transparent;
+    border: 0px;
+    margin-top: -40px;
+}
+.ui-dialog .ui-dialog-titlebar{
+    margin-top: -40px;
+}
+/* cookie alert */
+.ui-dialog .ui-dialog-titlebar-close span{
+    display: none!important;
+}
+.ui-dialog-titlebar-close{
+    font-size:  0px!important;
+    display:    block;
+    background: url('../images/close.png') no-repeat center;
+    width:      49px!important;
+    height:     48px!important;
+    margin-top: 30px!important;
+    margin-right: -10px!important;
+    z-index: 1!important;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover{
+    background: url('../images/close.png') no-repeat center!important;
+    border: 0px;
+}
+.ui-dialog-titlebar{
+    position:   absolute;
+    right:      12px;
+    top:        -8px;
+}
+#falkonet_cookie_alert #ca_accept{
+    font-size:  0px;
+    display:    block;
+    background: url('../images/accept.png');
+    width:      39px;
+    height:     39px;
+    border:     0px solid #dddddd;
+    position:	relative;
+    top: 	50%;
+    margin-top: -20px;
+}
+#ca-popup-wrapper {
+    width:          710px!important;
+    margin:         auto;
+    background:     #ffffff;
+    color:          black;
+    padding:        20px 40px;
+    margin-top:     20px; 
+    margin-bottom:  20px;
+    font-size:      14px;
+    font-family:    Arial;
+    margin-top:     17px;
+}
+.ca_title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.fixed-bg{
+    background: url('../images/pop-up-obw.png');
+    position:   fixed;
+    top:    0px;
+    bottom: 0px;
+    left:   0px;
+    right:  0px;
+    z-index: -1;
+}
+.ui-dialog.ui-widget {
+    position: absolute!important;
+    background: url('../images/pup-up-border.png')!important;
+    width:      830px!important;
+    margin:     auto;
+    left:       50%!important;
+    margin-left:-415px;
+    z-index:    1000000!important;
+    border: 2px solid black;
+}
+
+
+
+.ui-widget-overlay {
+	background: rgba( 200, 200, 200, 0.5);
+        
+}
+
+/*.ui-dialog {
+	left: 50% !important;
+	margin-left: -300px;
+}
+
+.ui-dialog-titlebar-close {
+
+}*/
+
+#falkonet_cookie_alert {
+	font-family: Verdana,Tahoma,"DejaVu Sans",sans-serif;
+	font-size: 11px;
+	text-align: justify;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+#falkonet_cookie_alert .ca_content_wrapper {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	z-index: 300;
+        height: 49px;
+        line-height: 49px;
+        color:      #FFF;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.85);
+}
+
+#falkonet_cookie_alert .ca_content_wrapper .content {
+	margin: 0px 0 0 0;
+}
+
+#falkonet_cookie_alert .ca_title {
+	font-weight: bold;
+	font-size: 12px;
+	margin-bottom: 10px;
+
+}
+
+#falkonet_cookie_alert .ca_buttons {
+	float: right;
+	height:	100%;
+	margin: 0 30px;
+}
+
+#falkonet_cookie_alert .ca_buttons button {
+	border: 1px solid #dddddd;
+	cursor: pointer;
+	padding: 3px 5px;
+}
+
+#falkonet_cookie_alert a {
+	color: #FFF;
+}
+
+#falkonet_cookie_alert #ca-popup-wrapper {
+	display: none;
+}
+
+#falkonet_cookie_alert #ca-popup-wrapper button {
+	border: 1px solid #dddddd;
+	cursor: pointer;
+	padding: 5px 10px;
+}
+
+#falkonet_cookie_alert .top_button {
+	margin-bottom: 10px;
+}
+
+#falkonet_cookie_alert .bottom_button {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#falkonet_cookie_alert .ca_body {
+	margin-bottom: 10px;
+}
+
+#falkonet_cookie_alert #ca-popup-wrapper li{
+	margin-bottom: 5px;
+}
+
+#falkonet_cookie_alert #ca-popup-wrapper ul {
+	padding-left: 20px;
+	margin-top: 10px;
+	list-style: lower-latin;
+}
+
+@media screen and (max-width: 900px) and (min-width: 0px){
+    #falkonet_cookie_alert .ca_content_wrapper{
+        line-height:    20px;
+        height:         60px;
+        padding-top:    10px;
+        box-sizing:     border-box;
+    }
+    
+    #falkonet_cookie_alert .ca_content_wrapper .content{
+        padding-left:   20px; 
+    }
+}
+@media screen and (max-width: 420px) and (min-width: 370px){
+    #falkonet_cookie_alert .ca_content_wrapper{
+        height:         100px!important;
+    }
+}
+@media screen and (max-width: 370px) and (min-width: 0px){
+    #falkonet_cookie_alert .ca_content_wrapper{
+        height:         120px!important;
+    }
+}
+@media screen and (max-width: 900px) and (min-width: 0px){
+    .ui-dialog.ui-widget{
+        width: 80%!important;
+        left: 10%!important;
+        margin: auto;
+    }
+    #ca-popup-wrapper{
+        width: 76%!important;
+    }
+}

@@ -1,0 +1,56 @@
+body.navbar-is-fixed-top {
+  padding-top: 73px !important; }
+
+#navbar .glyphicon {
+  font-size: 30px; }
+#navbar .navbar-btn {
+  padding-top: 5px; }
+#navbar nav #main-menu li span {
+  color: #FFF; }
+
+.secondary li {
+  float: left; }
+  .secondary li a {
+    display: block;
+    margin-top: 16.5px;
+    padding: 0 15px 0 15px; }
+    .secondary li a span {
+      font-size: 23px !important; }
+
+.region-menu-redaktora {
+  float: left; }
+  .region-menu-redaktora ul.menu > li {
+    float: left; }
+    .region-menu-redaktora ul.menu > li span {
+      color: #FFF; }
+    .region-menu-redaktora ul.menu > li .nolink {
+      padding: 19px;
+      display: block;
+      cursor: pointer; }
+
+.views-field-edit-node a {
+  font-size: 0px;
+  margin-left: 10px; }
+  .views-field-edit-node a span {
+    font-size: 25px; }
+
+.view-tre-na-stronie .view-header, .view-aktualnosci-admin .view-header, .view-prosta-strona-admin .view-header {
+  margin-bottom: 20px; }
+  .view-tre-na-stronie .view-header a, .view-aktualnosci-admin .view-header a, .view-prosta-strona-admin .view-header a {
+    margin-right: 10px; }
+.view-tre-na-stronie .views-table tr td, .view-aktualnosci-admin .views-table tr td, .view-prosta-strona-admin .views-table tr td {
+  vertical-align: middle; }
+
+.node-form-has-region-right .form-region-main {
+  width: 60%; }
+
+.node-form .form-region-right {
+  width: 39%; }
+
+.filter-wrapper {
+  display: none; }
+
+.text-summary-wrapper .field-edit-link {
+  display: none; }
+
+/*# sourceMappingURL=style.css.map */
